@@ -37,3 +37,12 @@ commit message 的概述
 ```
 build(global):项目初始化
 ```
+# git提交流程
+1. git pull https://github.com/Ray-wgs/easy-visualize.git -- 拉取代码
+2. git branch dev -- 创建开发分支
+3. git checkout dev -- 切换到开发分支
+4. git add . -- 提交修改后的代码到暂存区
+5. git commit -m '提交信息' -- 添加commit
+6. git checkout main -- 切换到主分支
+7. git merge dev -- 将开发分支的内容合并到主分支 并处理冲突
+8. git push -- 将最新代码推送到远程仓库
