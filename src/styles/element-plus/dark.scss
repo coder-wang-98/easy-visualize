@@ -19,7 +19,7 @@ $--colors: (
   ),
 );
 @forward "element-plus/theme-chalk/src/mixins/config.scss" with (
-  $namespace: "vs"
+  $namespace: "ev"
 );
 @forward "element-plus/theme-chalk/src/dark/var.scss" with (
   $colors: $--colors
