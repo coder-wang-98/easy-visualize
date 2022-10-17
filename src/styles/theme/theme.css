@@ -1,0 +1,11 @@
+/* --------dark主题--------   */
+:root[class='dark']{
+  --ev-bg-color:#FFF;
+  --ev-text-color:#000;
+}
+
+/* --------light主题--------   */
+:root[class='light']{
+  --ev-bg-color:#000;
+  --ev-text-color:#FFF;
+}

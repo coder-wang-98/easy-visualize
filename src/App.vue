@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg">
     <el-switch 
       v-model="theme" 
       active-value="light"
@@ -26,5 +26,8 @@ onMounted(() => {
 
 </script>
 <style scoped lang='scss'>
-
+.bg{
+  background-color: var(--ev-bg-color);
+  color:var(--ev-text-color);
+}
 </style>
